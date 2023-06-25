@@ -1,0 +1,17 @@
+POST http://127.0.0.1:8000/login/
+Content-Type: application/json
+
+{"username": "Doniyor123", "password": "Password!"}
+
+### 
+
+POST http://127.0.0.1:8000/signup/
+Content-Type: application/json
+
+{"username": "Doniyor123", "email": "ddonierov96@gmail.com", "password": "Password!" }
+
+###
+
+GET http://127.0.0.1:8000/user/
+Content-Type: application/json
+Authorization: Token 7e38a227d6a517ef033e39a2d0d01df0ef6230ac
